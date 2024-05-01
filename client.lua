@@ -121,10 +121,10 @@ InitializePaint = function(pos)
 
     TriggerServerEvent('bryan_paintjob:server:setLocationBusy', pos, true)
 
-    local input = lib.inputDialog('Paint Job', {
-        { type = 'select', label = 'Option', options = {
-            { value = 'primary', label = 'Primary' },
-            { value = 'secondary', label = 'Secondary' }
+    local input = lib.inputDialog('Pintura de veículos', {
+        { type = 'select', label = 'Opção', options = {
+            { value = 'primary', label = 'Primária' },
+            { value = 'secondary', label = 'Secundária' }
         }, default = 'primary', clearable = false },
         { type = 'select', label = 'Type', options = {
             { value = '0', label = 'Normal' },
