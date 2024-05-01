@@ -134,7 +134,7 @@ InitializePaint = function(pos)
             { value = '4', label = 'Metal' },
             { value = '5', label = 'Chrome' },
         }, default = '0', clearable = false },
-        { type = 'color', label = 'Colour', default = '#ffffff' }
+        { type = 'color', label = 'Cor', default = '#ffffff' }
     })
 
     if not input then
