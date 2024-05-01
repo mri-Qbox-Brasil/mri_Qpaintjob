@@ -126,7 +126,7 @@ InitializePaint = function(pos)
             { value = 'primary', label = 'Primária' },
             { value = 'secondary', label = 'Secundária' }
         }, default = 'primary', clearable = false },
-        { type = 'select', label = 'Type', options = {
+        { type = 'select', label = 'Tipo', options = {
             { value = '0', label = 'Normal' },
             { value = '1', label = 'Metalic' },
             { value = '2', label = 'Pearl' },
